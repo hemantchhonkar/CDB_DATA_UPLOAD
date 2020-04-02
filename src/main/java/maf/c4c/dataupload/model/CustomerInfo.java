@@ -134,10 +134,10 @@
             this.setRoleCode(record.get("Role"));
             this.setFirstName( record.get("First_Name"));
             this.setLastName(record.get("Last_Name") );
-            this.setNationalityCountryCode(new CountryService().getCountryCodeByISO(record.get("Nationality")) );
+            this.setNationalityCountryCode(record.get("Nationality"));
             this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
             this.setLanguageCode(record.get("Language"));
-            this.setCountryCode(new CountryService().getCountryCodeByISO(record.get("Country")));
+            this.setCountryCode(record.get("Country"));
             this.setPhone(record.get("Phone"));
             this.setMobile(record.get("Mobile"));
             this.setEmail("automated."+record.get("EMail"));
