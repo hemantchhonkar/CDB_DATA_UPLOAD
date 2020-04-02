@@ -21,6 +21,13 @@ public class Country {
         this.codeNumber = Integer.parseInt(record.get("CodeNumeric"));
     }
 
+    public Country(String name, String code, String ISO, int codeNumber) {
+        this.name = name;
+        this.code = code;
+        this.ISO = ISO;
+        this.codeNumber = codeNumber;
+    }
+
     public String getName() {
         return name;
     }

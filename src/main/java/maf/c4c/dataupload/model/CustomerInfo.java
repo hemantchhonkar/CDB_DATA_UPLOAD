@@ -5,6 +5,8 @@
     import maf.c4c.dataupload.util.JSONUtil;
     import org.apache.commons.csv.CSVRecord;
 
+    import java.math.BigDecimal;
+
     public class CustomerInfo {
         @JsonProperty("RoleCode")
         private String roleCode;
@@ -131,19 +133,25 @@
 
         }
         public CustomerInfo(CSVRecord record) {
+            CountryService countryService = new CountryService();
             this.setRoleCode(record.get("Role"));
             this.setFirstName( record.get("First_Name"));
             this.setLastName(record.get("Last_Name") );
-            this.setNationalityCountryCode(record.get("Nationality"));
+            this.setNationalityCountryCode(countryService.getCountryCodeByISO(record.get("Nationality")));
             this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
             this.setLanguageCode(record.get("Language"));
-            this.setCountryCode(record.get("Country"));
+            this.setCountryCode(countryService.getCountryCodeByISO(record.get("Country")));
+//            this.setPhone(new BigDecimal(record.get("Phone")).toBigInteger().toString());
+//            this.setMobile(new BigDecimal(record.get("Mobile")).toBigInteger().toString());
+
             this.setPhone(record.get("Phone"));
             this.setMobile(record.get("Mobile"));
-            this.setEmail("automated."+record.get("EMail"));
-            this.setCustomrExternalId("External_Key");
+
+            this.setEmail("automated_prod_test."+record.get("EMail"));
+            this.setCustomrExternalId(record.get("External_Key"));
             this.setNonSAPExternalSystem("CDB");
         }
+
 
         @Override
         public String toString() {

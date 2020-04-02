@@ -2,6 +2,7 @@ package maf.c4c.dataupload.thread;
 
 import maf.c4c.dataupload.service.CustomerService;
 import maf.c4c.dataupload.model.CustomerInfo;
+import maf.c4c.dataupload.service.CustomerServiceSynch;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 
@@ -21,11 +22,11 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Processors implements Runnable {
-    static String BASE_DIR = "";
+    public static String BASE_DIR = "";
     final String INPUT_DIR = BASE_DIR+"/input/";
     final String INPROCESS_DIR = BASE_DIR+"/inprocess/";
     final String PROCESSED_DIR = BASE_DIR+"/processed/";
-    private static final int CONSUMER_COUNT = 1;
+    private static final int CONSUMER_COUNT = 30;
     private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(30);
 
     private boolean isConsumer;
@@ -91,9 +92,9 @@ public class Processors implements Runnable {
     }
 
     private void moveFile(String inputFileName, String input_dir, String inprocess_dir) throws IOException {
-        Files.move(Paths.get(input_dir + inputFileName),
-                Paths.get(inprocess_dir + inputFileName),
-                StandardCopyOption.REPLACE_EXISTING);
+//        Files.move(Paths.get(input_dir + inputFileName),
+//                Paths.get(inprocess_dir + inputFileName),
+//                StandardCopyOption.REPLACE_EXISTING);
     }
 
     @Override
@@ -114,7 +115,7 @@ public class Processors implements Runnable {
         try {
             while (!producerIsDone || (producerIsDone && !linesReadQueue.isEmpty())) {
                 CustomerInfo customerInfo = linesReadQueue.take();
-                CustomerService.process(customerInfo);
+                CustomerServiceSynch.process(customerInfo);
                 System.out.println("procesed:" + customerInfo);
             }
         } catch (Exception e) {

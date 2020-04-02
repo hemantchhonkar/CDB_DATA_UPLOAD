@@ -1,6 +1,7 @@
 package maf.c4c.dataupload.service;
 
 import maf.c4c.dataupload.model.CustomerInfo;
+import maf.c4c.dataupload.thread.Processors;
 import maf.c4c.dataupload.util.HTTPRequestUtil;
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
@@ -18,7 +19,13 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
 import org.apache.http.impl.nio.client.HttpAsyncClients;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.concurrent.Future;
 
 public class CustomerServiceSynch {
@@ -47,6 +54,8 @@ public class CustomerServiceSynch {
             createCustomer(csrfToken, customerInfo, httpClient, localContext);
         }
         catch ( Exception e){
+            System.out.println("CSRF token....Failed { Count - " + (++failedCount) + "}" + customerInfo);
+            writeFailedRecordsIntoAFile(customerInfo);
             e.printStackTrace();
         }
 //                getCustomerByEmail(csrfToken,
@@ -126,10 +135,26 @@ public class CustomerServiceSynch {
                 System.out.println("Customer Created { Count - " + (++uploadCount) + "}" + customerInfo);
             } else {
                 System.out.println("Customer Failed { Count - " + (++failedCount) + "}" + customerInfo);
+                writeFailedRecordsIntoAFile(customerInfo);
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
+
+    private static void writeFailedRecordsIntoAFile(CustomerInfo customerInfo) {
+        try
+        {
+            FileWriter fw = new FileWriter(new File(Processors.BASE_DIR+"/failed/failed.json"));
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(customerInfo.toString());
+            //Closing BufferedWriter Stream
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }
