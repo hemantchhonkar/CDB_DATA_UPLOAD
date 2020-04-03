@@ -1,0 +1,10 @@
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/EntryPoint.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/model/CustomerInfo.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/model/Country.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/thread/Processors.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/util/CSVUtil.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/service/CustomerService.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/util/HTTPRequestUtil.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/util/JSONUtil.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/service/CustomerServiceSynch.java
+/Users/hemantchhonkar/work/maf/code/repositories/CDB_DATA_UPLOAD/src/main/java/maf/c4c/dataupload/service/CountryService.java

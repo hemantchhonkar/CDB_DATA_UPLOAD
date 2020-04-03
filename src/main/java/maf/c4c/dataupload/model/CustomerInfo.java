@@ -148,7 +148,7 @@
                 String mobile = record.get("Mobile");
                 this.setPhone(phone.length() > 0 ? formatNumber(phone) : phone);
                 this.setMobile(mobile.length() > 0 ? formatNumber(mobile) : mobile);
-                this.setEmail("automated_utf8_1."+record.get("EMail"));
+                this.setEmail("automated_test_final."+record.get("EMail"));
                 this.setCustomrExternalId(record.get("External_Key"));
                 this.setNonSAPExternalSystem("CDB");
             }

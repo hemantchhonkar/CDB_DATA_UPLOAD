@@ -58,7 +58,7 @@ public class Processors implements Runnable {
         logger.info("Total elapsed time: " + elapsedTimeInMillis + " ms");
     }
 
-    private void processFiles() throws IOException {
+    private void processFiles() {
 
         try (Stream<Path> paths = Files.walk(Paths.get(INPUT_DIR))) {
             List<String> fileNameList =
@@ -70,6 +70,8 @@ public class Processors implements Runnable {
             else {
                 logger.error("No files found in the directory "+INPUT_DIR);
             }
+        } catch (IOException ioe){
+            logger.error(" Exception processFiles", ioe);
         }
         producerIsDone = true;
         logger.info(Thread.currentThread().getName() + " producer is done");
@@ -77,19 +79,19 @@ public class Processors implements Runnable {
 
     private void processFile(String inputFileName) {
         try {
-            CSVParser parser = new CSVParser(new FileReader(INPUT_DIR+inputFileName), CSVFormat.DEFAULT.withHeader());
             moveFile(inputFileName, INPUT_DIR, INPROCESS_DIR);
+            CSVParser parser = new CSVParser(new FileReader(INPROCESS_DIR+inputFileName), CSVFormat.DEFAULT.withHeader());
             parser.getRecords().forEach(record -> {
                 logger.info("read=" + record);
                 try {
                     linesReadQueue.put(new CustomerInfo(record));
                 } catch (InterruptedException e) {
-                    e.printStackTrace();
+                    logger.error(" processFile interrupted ", e);
                 }
             });
             moveFile(inputFileName, INPROCESS_DIR, PROCESSED_DIR);
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error(" Exception processFile ", e);
         }
     }
 
@@ -104,11 +106,7 @@ public class Processors implements Runnable {
         if (isConsumer) {
             consume();
         } else {
-            try {
-                processFiles();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            processFiles();
         }
     }
 
