@@ -98,12 +98,6 @@ public class Processors implements Runnable {
     }
 
     private void moveFile(String inputFileName, String input_dir, String inprocess_dir) throws IOException {
-//    	try {
-//			Thread.sleep(5000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			logger.error("Error while putting the thread to sleep in moveFile method", e);
-//		}
         Files.move(Paths.get(input_dir + inputFileName),
                 Paths.get(inprocess_dir + inputFileName),
                 StandardCopyOption.REPLACE_EXISTING);
