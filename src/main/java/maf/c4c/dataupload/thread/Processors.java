@@ -7,12 +7,13 @@ import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.log4j.Logger;
 
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardCopyOption;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -23,6 +24,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Processors implements Runnable {
+    private List<String> countryCodesToMigrate = Arrays.asList(new String[]{"AE", "BH", "KW"});
     final static Logger logger = Logger.getLogger(Processors.class);
     public static String BASE_DIR = "";
     final String INPUT_DIR = BASE_DIR+"/input/";
@@ -96,12 +98,12 @@ public class Processors implements Runnable {
     }
 
     private void moveFile(String inputFileName, String input_dir, String inprocess_dir) throws IOException {
-    	try {
-			Thread.sleep(5000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			logger.error("Error while putting the thread to sleep in moveFile method", e);
-		}
+//    	try {
+//			Thread.sleep(5000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			logger.error("Error while putting the thread to sleep in moveFile method", e);
+//		}
         Files.move(Paths.get(input_dir + inputFileName),
                 Paths.get(inprocess_dir + inputFileName),
                 StandardCopyOption.REPLACE_EXISTING);
@@ -121,7 +123,17 @@ public class Processors implements Runnable {
         try {
             while (!producerIsDone || (producerIsDone && !linesReadQueue.isEmpty())) {
                 CustomerInfo customerInfo = linesReadQueue.take();
-                CustomerServiceSynch.process(customerInfo);
+                if(this.countryCodesToMigrate.contains(customerInfo.getCountryCode())) {
+                    CustomerServiceSynch.process(customerInfo);
+                }
+                else{
+                    logger.info("Ignoring as country code is out of scope. Data: ");
+                }
+
+                if(customerInfo.getCountryCode() ==null && customerInfo.getCountryCode().length() <= 0){
+                    logger.error("Country code no found for the customer, check the failed json: "+ customerInfo);
+                    writeFailedRecordsIntoAFile(customerInfo);
+                }
                 logger.info("procesed:" + customerInfo);
             }
         } catch (Exception e) {
@@ -129,5 +141,19 @@ public class Processors implements Runnable {
         }
 
         logger.info(Thread.currentThread().getName() + " consumer is done");
+    }
+
+    private static void writeFailedRecordsIntoAFile(CustomerInfo customerInfo) {
+        try
+        {
+            FileWriter fw = new FileWriter(new File(Processors.BASE_DIR+"/failed/customer_without_country_code.json"), true);
+            //BufferedWriter writer give better performance
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(customerInfo.toString());
+            //Closing BufferedWriter Stream
+            bw.close();
+        } catch (IOException e) {
+            logger.error("JSON Write failed customer_without_country_code", e);
+        }
     }
 }
