@@ -30,8 +30,8 @@ public class Processors implements Runnable {
     final String INPUT_DIR = BASE_DIR+"/input/";
     final String INPROCESS_DIR = BASE_DIR+"/inprocess/";
     final String PROCESSED_DIR = BASE_DIR+"/processed/";
-    private static final int CONSUMER_COUNT = 50;
-    private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(100);
+    private static final int CONSUMER_COUNT = 80;
+    private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(300);
 
     private boolean isConsumer;
     private static boolean producerIsDone = false;
@@ -81,6 +81,7 @@ public class Processors implements Runnable {
 
     private void processFile(String inputFileName) {
         try {
+            logger.info("Processing file: "+INPUT_DIR+"/"+inputFileName);
             moveFile(inputFileName, INPUT_DIR, INPROCESS_DIR);
             CSVParser parser = new CSVParser(new FileReader(INPROCESS_DIR+inputFileName), CSVFormat.DEFAULT.withHeader());
             parser.getRecords().forEach(record -> {
