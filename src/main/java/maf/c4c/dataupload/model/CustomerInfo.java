@@ -137,6 +137,7 @@
         public CustomerInfo(CSVRecord record) {
             CountryService countryService = new CountryService();
             try {
+            	this.setNonSAPExternalSystem("CDB");
                 this.setRoleCode(record.get("Role"));
                 this.setFirstName( record.get("First_Name"));
                 this.setLastName(record.get("Last_Name") );
@@ -148,9 +149,9 @@
                 String mobile = record.get("Mobile");
                 this.setPhone(phone.length() > 0 ? formatNumber(phone) : phone);
                 this.setMobile(mobile.length() > 0 ? formatNumber(mobile) : mobile);
-                this.setEmail("automated_test_final."+record.get("EMail"));
+                this.setEmail(record.get("EMail"));
                 this.setCustomrExternalId(record.get("External_Key"));
-                this.setNonSAPExternalSystem("CDB");
+                
             }
             catch (Exception ex) {
                 logger.error("Error while reading the row from CSV "+record, ex);
