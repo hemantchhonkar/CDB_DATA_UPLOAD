@@ -4,10 +4,12 @@
     import maf.c4c.dataupload.service.CountryService;
     import maf.c4c.dataupload.util.JSONUtil;
     import org.apache.commons.csv.CSVRecord;
+    import org.apache.log4j.Logger;
 
     import java.math.BigDecimal;
 
     public class CustomerInfo {
+        final static Logger logger = Logger.getLogger(CustomerInfo.class);
         @JsonProperty("RoleCode")
         private String roleCode;
         @JsonProperty("FirstName")
@@ -129,27 +131,40 @@
             this.email = email;
         }
 
-        CustomerInfo() {
+        public CustomerInfo() {
 
         }
         public CustomerInfo(CSVRecord record) {
             CountryService countryService = new CountryService();
-            this.setRoleCode(record.get("Role"));
-            this.setFirstName( record.get("First_Name"));
-            this.setLastName(record.get("Last_Name") );
-            this.setNationalityCountryCode(countryService.getCountryCodeByISO(record.get("Nationality")));
-            this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
-            this.setLanguageCode(record.get("Language"));
-            this.setCountryCode(countryService.getCountryCodeByISO(record.get("Country")));
-//            this.setPhone(new BigDecimal(record.get("Phone")).toBigInteger().toString());
-//            this.setMobile(new BigDecimal(record.get("Mobile")).toBigInteger().toString());
+            try {
+                this.setRoleCode(record.get("Role"));
+                this.setFirstName( record.get("First_Name"));
+                this.setLastName(record.get("Last_Name") );
+                this.setNationalityCountryCode(countryService.getCountryCodeByISO(record.get("Nationality")));
+                this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
+                this.setLanguageCode(record.get("Language"));
+                this.setCountryCode(countryService.getCountryCodeByISO(record.get("Country")));
+                String phone = record.get("Phone");
+                String mobile = record.get("Mobile");
+                this.setPhone(phone.length() > 0 ? formatNumber(phone) : phone);
+                this.setMobile(mobile.length() > 0 ? formatNumber(mobile) : mobile);
+                this.setEmail("automated_utf8_1."+record.get("EMail"));
+                this.setCustomrExternalId(record.get("External_Key"));
+                this.setNonSAPExternalSystem("CDB");
+            }
+            catch (Exception ex) {
+                logger.error("Error while reading the row from CSV "+record, ex);
+            }
+        }
 
-            this.setPhone(record.get("Phone"));
-            this.setMobile(record.get("Mobile"));
-
-            this.setEmail("automated_prod_test."+record.get("EMail"));
-            this.setCustomrExternalId(record.get("External_Key"));
-            this.setNonSAPExternalSystem("CDB");
+        private String  formatNumber(String stringNumber) {
+            try {
+                BigDecimal phoneNo = new BigDecimal(stringNumber);
+                return phoneNo.toPlainString();
+            }catch(Exception e) {
+               logger.error(e.getMessage() + " at formatNumber(String stringNumber)", e);
+                return stringNumber;
+            }
         }
 
 

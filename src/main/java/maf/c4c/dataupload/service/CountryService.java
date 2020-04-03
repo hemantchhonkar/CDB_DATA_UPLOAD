@@ -5,20 +5,9 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class CountryService {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args)  {
        System.out.println(new CountryService().getCountryCodeByISO("NZL"));
     }
-//    static {
-//        List<Country> countries = null;
-//        try {
-//            countries = CSVUtil.getCountryList());
-//        } catch (IOException e) {
-//            e.printStackTrace());
-//        }
-//        countryMap = countries.stream().collect(Collectors.toMap(Country::getISO,Country::getCountry )));
-//        System.out.println(countryMap));
-//
-//    }
 
     public String getCountryCodeByISO(String countryISO) {
         if(countryISO.length() >0 ) {

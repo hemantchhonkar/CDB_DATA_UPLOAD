@@ -5,6 +5,7 @@ import maf.c4c.dataupload.model.CustomerInfo;
 import maf.c4c.dataupload.service.CustomerServiceSynch;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
+import org.apache.log4j.Logger;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -22,12 +23,13 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Processors implements Runnable {
+    final static Logger logger = Logger.getLogger(Processors.class);
     public static String BASE_DIR = "";
     final String INPUT_DIR = BASE_DIR+"/input/";
     final String INPROCESS_DIR = BASE_DIR+"/inprocess/";
     final String PROCESSED_DIR = BASE_DIR+"/processed/";
-    private static final int CONSUMER_COUNT = 30;
-    private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(30);
+    private static final int CONSUMER_COUNT = 50;
+    private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(100);
 
     private boolean isConsumer;
     private static boolean producerIsDone = false;
@@ -53,7 +55,7 @@ public class Processors implements Runnable {
         }
         long endTime = System.nanoTime();
         long elapsedTimeInMillis = TimeUnit.MILLISECONDS.convert((endTime - startTime), TimeUnit.NANOSECONDS);
-        System.out.println("Total elapsed time: " + elapsedTimeInMillis + " ms");
+        logger.info("Total elapsed time: " + elapsedTimeInMillis + " ms");
     }
 
     private void processFiles() throws IOException {
@@ -66,11 +68,11 @@ public class Processors implements Runnable {
                 fileNameList.forEach(fileName ->  processFile(fileName));
             }
             else {
-                System.out.println("No files found in the directory "+INPUT_DIR);
+                logger.error("No files found in the directory "+INPUT_DIR);
             }
         }
         producerIsDone = true;
-        System.out.println(Thread.currentThread().getName() + " producer is done");
+        logger.info(Thread.currentThread().getName() + " producer is done");
     }
 
     private void processFile(String inputFileName) {
@@ -78,7 +80,7 @@ public class Processors implements Runnable {
             CSVParser parser = new CSVParser(new FileReader(INPUT_DIR+inputFileName), CSVFormat.DEFAULT.withHeader());
             moveFile(inputFileName, INPUT_DIR, INPROCESS_DIR);
             parser.getRecords().forEach(record -> {
-                System.out.println("read=" + record);
+                logger.info("read=" + record);
                 try {
                     linesReadQueue.put(new CustomerInfo(record));
                 } catch (InterruptedException e) {
@@ -92,9 +94,9 @@ public class Processors implements Runnable {
     }
 
     private void moveFile(String inputFileName, String input_dir, String inprocess_dir) throws IOException {
-//        Files.move(Paths.get(input_dir + inputFileName),
-//                Paths.get(inprocess_dir + inputFileName),
-//                StandardCopyOption.REPLACE_EXISTING);
+        Files.move(Paths.get(input_dir + inputFileName),
+                Paths.get(inprocess_dir + inputFileName),
+                StandardCopyOption.REPLACE_EXISTING);
     }
 
     @Override
@@ -111,17 +113,17 @@ public class Processors implements Runnable {
     }
 
     private void consume() {
-        System.out.println("Consumer started....:");
+        logger.info("Consumer started....:");
         try {
             while (!producerIsDone || (producerIsDone && !linesReadQueue.isEmpty())) {
                 CustomerInfo customerInfo = linesReadQueue.take();
                 CustomerServiceSynch.process(customerInfo);
-                System.out.println("procesed:" + customerInfo);
+                logger.info("procesed:" + customerInfo);
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
 
-        System.out.println(Thread.currentThread().getName() + " consumer is done");
+        logger.info(Thread.currentThread().getName() + " consumer is done");
     }
 }
