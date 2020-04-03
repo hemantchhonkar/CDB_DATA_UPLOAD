@@ -1,0 +1,507 @@
+2020-04-03 11:24:54 INFO  EntryPoint:21 - /Users/hemantchhonkar/Documents/data_upload/files
+2020-04-03 11:24:54 INFO  EntryPoint:22 - Data migration process started.....
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:24:54 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+2020-04-03 11:24:54 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:24:54 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+2020-04-03 11:24:54 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:24:54 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:24:54 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:24:54 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+2020-04-03 11:24:54 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:24:54 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+2020-04-03 11:24:54 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:24:54 INFO  Processors:77 - pool-1-thread-1 producer is done
+2020-04-03 11:24:54 INFO  Processors:58 - Total elapsed time: 169 ms
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:24:54 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:24:58 INFO  CustomerServiceSynch:45 - CSRF token....ROnbYe-g67vD8IeDWQMSjw==
+2020-04-03 11:24:59 INFO  CustomerServiceSynch:45 - CSRF token....vhE1g0AT3bADjZLapEciAA==
+2020-04-03 11:24:59 INFO  CustomerServiceSynch:45 - CSRF token....hXGazazvJJGxGatBC7WLjQ==
+2020-04-03 11:24:59 INFO  CustomerServiceSynch:45 - CSRF token....NXGSLPSSfUFDSy19AD2mKg==
+2020-04-03 11:24:59 INFO  CustomerServiceSynch:45 - CSRF token....iDpOrkEwoObHKr6B_12W-Q==
+2020-04-03 11:25:01 INFO  CustomerServiceSynch:67 - Customer Created { Count - 1}{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:01 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:01 INFO  Processors:125 - pool-2-thread-6 consumer is done
+2020-04-03 11:25:02 INFO  CustomerServiceSynch:67 - Customer Created { Count - 2}{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:02 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:02 INFO  Processors:125 - pool-2-thread-8 consumer is done
+2020-04-03 11:25:02 INFO  CustomerServiceSynch:67 - Customer Created { Count - 3}{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:02 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:02 INFO  Processors:125 - pool-2-thread-9 consumer is done
+2020-04-03 11:25:03 INFO  CustomerServiceSynch:67 - Customer Created { Count - 4}{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:03 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:03 INFO  Processors:125 - pool-2-thread-1 consumer is done
+2020-04-03 11:25:03 INFO  CustomerServiceSynch:67 - Customer Created { Count - 5}{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:03 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:25:03 INFO  Processors:125 - pool-2-thread-7 consumer is done
+2020-04-03 11:25:56 INFO  EntryPoint:21 - /Users/hemantchhonkar/Documents/data_upload/files
+2020-04-03 11:25:56 INFO  EntryPoint:22 - Data migration process started.....
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:25:56 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+2020-04-03 11:25:56 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:25:56 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+2020-04-03 11:25:56 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:25:56 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+2020-04-03 11:25:56 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:25:56 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:25:56 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:25:56 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+2020-04-03 11:25:56 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:25:56 INFO  Processors:77 - pool-1-thread-1 producer is done
+2020-04-03 11:25:56 INFO  Processors:58 - Total elapsed time: 99 ms
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:25:56 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:01 INFO  CustomerServiceSynch:45 - CSRF token....Qauzz0SDTYNcH4hJEs6tgA==
+2020-04-03 11:26:01 INFO  CustomerServiceSynch:45 - CSRF token....qXgvU05VOnmwx8zCWcNObw==
+2020-04-03 11:26:01 INFO  CustomerServiceSynch:45 - CSRF token....GVcywCeeUFY22bCQghYFpw==
+2020-04-03 11:26:02 INFO  CustomerServiceSynch:45 - CSRF token....6HZwZd2wu6JcpPXJo6CutA==
+2020-04-03 11:26:02 INFO  CustomerServiceSynch:45 - CSRF token....a_mfrE36pyytfeLj9g37_w==
+2020-04-03 11:26:05 INFO  CustomerServiceSynch:67 - Customer Created { Count - 1}{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:125 - pool-2-thread-30 consumer is done
+2020-04-03 11:26:05 INFO  CustomerServiceSynch:67 - Customer Created { Count - 2}{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:125 - pool-2-thread-8 consumer is done
+2020-04-03 11:26:05 INFO  CustomerServiceSynch:67 - Customer Created { Count - 3}{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:125 - pool-2-thread-7 consumer is done
+2020-04-03 11:26:05 INFO  CustomerServiceSynch:67 - Customer Created { Count - 4}{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:05 INFO  Processors:125 - pool-2-thread-9 consumer is done
+2020-04-03 11:26:06 INFO  CustomerServiceSynch:67 - Customer Created { Count - 5}{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:06 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:06 INFO  Processors:125 - pool-2-thread-1 consumer is done
+2020-04-03 11:26:40 INFO  EntryPoint:21 - /Users/hemantchhonkar/Documents/data_upload/files
+2020-04-03 11:26:40 INFO  EntryPoint:22 - Data migration process started.....
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:114 - Consumer started....:
+2020-04-03 11:26:40 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+2020-04-03 11:26:40 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=1, values=[AR001, , CRM000, , , , , , jowhara, , Aljhany, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.665E+11, , , jowharaljhany1234@hotmail.com, , , , , , , , , , , , jowharaljhany1234@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:26:40 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+2020-04-03 11:26:40 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=2, values=[AR002, , CRM000, , , , , , زكي, , المالكي, , , , M, , , , , , YEM, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66503E+11, , , abtrky7030@gmail.com, , , , , , , , , , , , abtrky7030@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:26:40 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:26:40 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=3, values=[AR003, , CRM000, , , , , , asma, , alnuaim, , , , F, , , , , , SAU, , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66531E+11, , , asma.3.n@gmail.com, , , , , , , , , , , , asma.3.n@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:26:40 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+2020-04-03 11:26:40 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=4, values=[AR004, , CRM000, , , , , , Hana, , Jalali , , , , M, , , EN, , , , , AE, , , , , , , , , , , , , , , , , , , , , , , , , 551874398, , , hana.farooq28@gmail.com, , , , , , , , , , , , hana.farooq28@gmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:26:40 INFO  Processors:85 - read=CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+2020-04-03 11:26:40 ERROR CustomerInfo:156 - Error while reading the row from CSV CSVRecord [comment=null, mapping={﻿External_Key=0, Customer_ID=1, Role=2, Status=3, ABC_Classification=4, Contact_Permission=5, Title=6, Academic_Title=7, First_Name=8, Middle_Name=9, Last_Name=10, Additional_Last_Name=11, Initials=12, Nickname=13, Gender=14, Prefix=15, Marital_Status=16, Language=17, Birth_Name=18, Date_of_Birth=19, Nationality=20, Profession=21, Country=22, State=23, co=24, Address_Line_1=25, Address_Line_2=26, House_Number=27, Additional_House_Number=28, Street=29, Address_Line_4=30, Address_Line_5=31, District=32, City=33, Postal_Code=34, County=35, PO_Box_Address=36, PO_Box=37, PO_Box_Postal_Code=38, PO_Box_Country=39, PO_Box_State=40, PO_Box_City=41, Time_Zone=42, Tax_Jurisdiction_Code=43, Building=44, Floor=45, Room=46, Phone=47, Mobile=48, Fax=49, EMail=50, EMail_Invalid=51, Web_Site=52, Best_Reached_By=53, Order_Block=54, Delivery_Block=55, Billing_Block=56, Sales_Support_Block=57, Recommended_Visit_Frequency=58, Visit_Duration=59, Owner_ID=60, Owner_External_Key=61, External_ID=62}, recordNumber=5, values=[AR005, , CRM000, , , , , , الاء, , احمد, , , , F, , , , , , , , SA, , , , , , , , , , , , , , , , , , , , , , , , , 9.66533E+11, , , mis_lolo22@hotmail.com, , , , , , , , , , , , mis_lolo22@hotmail.com]]
+java.lang.IllegalArgumentException: Mapping for External_Key not found, expected one of [﻿External_Key, Customer_ID, Role, Status, ABC_Classification, Contact_Permission, Title, Academic_Title, First_Name, Middle_Name, Last_Name, Additional_Last_Name, Initials, Nickname, Gender, Prefix, Marital_Status, Language, Birth_Name, Date_of_Birth, Nationality, Profession, Country, State, co, Address_Line_1, Address_Line_2, House_Number, Additional_House_Number, Street, Address_Line_4, Address_Line_5, District, City, Postal_Code, County, PO_Box_Address, PO_Box, PO_Box_Postal_Code, PO_Box_Country, PO_Box_State, PO_Box_City, Time_Zone, Tax_Jurisdiction_Code, Building, Floor, Room, Phone, Mobile, Fax, EMail, EMail_Invalid, Web_Site, Best_Reached_By, Order_Block, Delivery_Block, Billing_Block, Sales_Support_Block, Recommended_Visit_Frequency, Visit_Duration, Owner_ID, Owner_External_Key, External_ID]
+	at org.apache.commons.csv.CSVRecord.get(CSVRecord.java:104)
+	at maf.c4c.dataupload.model.CustomerInfo.<init>(CustomerInfo.java:152)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFile$3(Processors.java:87)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFile(Processors.java:84)
+	at maf.c4c.dataupload.thread.Processors.lambda$processFiles$2(Processors.java:68)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at maf.c4c.dataupload.thread.Processors.processFiles(Processors.java:68)
+	at maf.c4c.dataupload.thread.Processors.run(Processors.java:109)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:28 - CustomerService process started....
+2020-04-03 11:26:40 INFO  Processors:77 - pool-1-thread-1 producer is done
+2020-04-03 11:26:40 INFO  Processors:58 - Total elapsed time: 124 ms
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:40 INFO  CustomerServiceSynch:39 - Going to get CSRF token....
+2020-04-03 11:26:44 INFO  CustomerServiceSynch:45 - CSRF token....nFmHq4XhtYOz0pfr6C7eFA==
+2020-04-03 11:26:44 INFO  CustomerServiceSynch:45 - CSRF token....DElbvWAAO8hGcml3zk840g==
+2020-04-03 11:26:45 INFO  CustomerServiceSynch:45 - CSRF token....V2hxBrKUSP5v8kCTip5gww==
+2020-04-03 11:26:45 INFO  CustomerServiceSynch:45 - CSRF token....d3pH7xWPHJZ5eGioRjnFeg==
+2020-04-03 11:26:45 INFO  CustomerServiceSynch:45 - CSRF token....8uzk1PRm7WpS5Q0jjB-5IA==
+2020-04-03 11:26:48 INFO  CustomerServiceSynch:67 - Customer Created { Count - 1}{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"asma","LastName":"alnuaim","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966531000000","Mobile":"","Email":"automated.asma.3.n@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:125 - pool-2-thread-7 consumer is done
+2020-04-03 11:26:48 INFO  CustomerServiceSynch:67 - Customer Created { Count - 2}{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"زكي","LastName":"المالكي","GenderCode":"1","LanguageCode":"","NationalityCountryCode":"YE","CountryCode":"SA","Phone":"966503000000","Mobile":"","Email":"automated.abtrky7030@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:125 - pool-2-thread-8 consumer is done
+2020-04-03 11:26:48 INFO  CustomerServiceSynch:67 - Customer Created { Count - 3}{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"jowhara","LastName":"Aljhany","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"SA","CountryCode":"SA","Phone":"966500000000","Mobile":"","Email":"automated.jowharaljhany1234@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:125 - pool-2-thread-1 consumer is done
+2020-04-03 11:26:48 INFO  CustomerServiceSynch:67 - Customer Created { Count - 4}{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"Hana","LastName":"Jalali ","GenderCode":"1","LanguageCode":"EN","NationalityCountryCode":"","CountryCode":"AE","Phone":"551874398","Mobile":"","Email":"automated.hana.farooq28@gmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:125 - pool-2-thread-6 consumer is done
+2020-04-03 11:26:48 INFO  CustomerServiceSynch:67 - Customer Created { Count - 5}{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:119 - procesed:{"RoleCode":"CRM000","FirstName":"الاء","LastName":"احمد","GenderCode":"2","LanguageCode":"","NationalityCountryCode":"","CountryCode":"SA","Phone":"966533000000","Mobile":"","Email":"automated.mis_lolo22@hotmail.com","NonSAPExternalSystem_KUT":null,"CUST_EXT_ID_KUT":null}
+2020-04-03 11:26:48 INFO  Processors:125 - pool-2-thread-5 consumer is done

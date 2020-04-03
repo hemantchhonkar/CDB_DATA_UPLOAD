@@ -8,32 +8,24 @@ import org.apache.http.HttpResponse;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
-import org.apache.http.client.methods.HttpPatch;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.protocol.HttpClientContext;
-import org.apache.http.concurrent.FutureCallback;
 import org.apache.http.impl.client.BasicCookieStore;
-import org.apache.http.impl.client.BasicResponseHandler;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
-import org.apache.http.impl.nio.client.CloseableHttpAsyncClient;
-import org.apache.http.impl.nio.client.HttpAsyncClients;
+import org.apache.log4j.Logger;
 
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.concurrent.Future;
 
 public class CustomerServiceSynch {
+    final static Logger logger = Logger.getLogger(CustomerServiceSynch.class);
     private static long uploadCount = 0;
     private static long failedCount = 0;
 
-        public static void process(CustomerInfo customerInfo) throws IOException {
-            System.out.println("CustomerService process started....");
+        public static void process(CustomerInfo customerInfo) {
+           logger.info("CustomerService process started....");
             final HttpClient httpClient = HttpClientBuilder.create().build();
             final CookieStore cookieStore = new BasicCookieStore();
             final HttpClientContext localContext = HttpClientContext.create();
@@ -42,64 +34,23 @@ public class CustomerServiceSynch {
 
         }
 
-    private static void getCSRFTokenAndPerformAPIOperations(CustomerInfo customerInfo, HttpClient httpClient, HttpClientContext localContext) throws IOException {
+    private static void getCSRFTokenAndPerformAPIOperations(CustomerInfo customerInfo, HttpClient httpClient, HttpClientContext localContext) {
         final HttpGet get = HTTPRequestUtil.createGetCSRFTokenRequest();
-        System.out.println("Going to get CSRF token....");
+        logger.info("Going to get CSRF token....");
         try {
             HttpResponse httpResponse = httpClient.execute(get, localContext);
             System.out.println(get.getRequestLine() + "->" + httpResponse.getStatusLine());
             Header[] header = httpResponse.getHeaders("X-CSRF-Token");
             String csrfToken = header[0].getValue();
-            System.out.println("CSRF token...."+csrfToken);
+            logger.info("CSRF token...."+csrfToken);
             createCustomer(csrfToken, customerInfo, httpClient, localContext);
         }
         catch ( Exception e){
-            System.out.println("CSRF token....Failed { Count - " + (++failedCount) + "}" + customerInfo);
+            logger.error("CSRF token....Failed { Count - " + (++failedCount) + "}" + customerInfo, e);
             writeFailedRecordsIntoAFile(customerInfo);
             e.printStackTrace();
         }
-//                getCustomerByEmail(csrfToken,
-//                        customerInfo,
-//                        httpClient,
-//                        localContext);
     }
-
-//    private static void getCustomerByEmail(String csrfToken,
-//                                           CustomerInfo customerInfo,
-//                                           HttpClient httpClient,
-//                                           HttpClientContext localContext) {
-//        final HttpGet get = HTTPRequestUtil.createGetCustomerRequest(csrfToken,
-//                customerInfo.getEmail());
-//
-//        Future<HttpResponse> responseGet = httpClient.execute(get, localContext, new FutureCallback<HttpResponse>() {
-//            @Override
-//            public void completed(final HttpResponse response2) {
-//                try {
-//                    String responseString = new BasicResponseHandler().handleResponse(response2);
-//                    String lookUpField = "\"ObjectID\"";
-//                    if(responseString.contains(lookUpField)){
-//                        System.out.println("Customer found for email "+customerInfo.getEmail());
-//                        String ObjectID = getObjectId(responseString, lookUpField);
-//                        System.out.println("Object ID "+ObjectID);
-//                        patchCustomer(ObjectID, csrfToken, customerInfo, httpClient, localContext);
-//                    } else {
-//                        System.out.println("Customer not found for email "+customerInfo.getEmail());
-//                        createCustomer(csrfToken, customerInfo, httpClient, localContext);
-//                    }
-//                } catch (IOException e) {
-//                    e.printStackTrace();
-//                }
-//            }
-//            @Override
-//            public void failed(Exception e) {
-//
-//            }
-//            @Override
-//            public void cancelled() {
-//
-//            }
-//        });
-//    }
 
     private static String getObjectId(String responseString, String lookUpField) {
         int fromOffSet = responseString.indexOf(lookUpField)+lookUpField.length()+2;
@@ -107,54 +58,34 @@ public class CustomerServiceSynch {
         return responseString.substring(fromOffSet, toOffset);
     }
 
-//    private static void patchCustomer(String objectID, String csrfToken, CustomerInfo customerInfo, CloseableHttpAsyncClient httpClient, HttpClientContext localContext) throws IOException {
-//        HttpPatch httpPatch = HTTPRequestUtil.createPATCHCustomer(csrfToken, objectID, customerInfo);
-//        Future<HttpResponse> response = httpClient.execute(httpPatch, localContext, new FutureCallback<HttpResponse>() {
-//            @Override
-//            public void completed(HttpResponse httpResponse) {
-//                System.out.println("Customer Patched " + customerInfo);
-//            }
-//            @Override
-//            public void failed(Exception e) {
-//                System.out.println("Customer PATCH Failed" + customerInfo);
-//                e.printStackTrace();
-//            }
-//            @Override
-//            public void cancelled() {
-//                System.out.println("Customer PATCH Cancelled" + customerInfo);
-//            }
-//        });
-//    }
-
     private static void createCustomer(String csrfToken, CustomerInfo customerInfo, HttpClient httpClient, HttpClientContext localContext) {
         try {
             final HttpPost post = HTTPRequestUtil.createPOSTCreateCustomer(csrfToken, customerInfo);
             HttpResponse response = httpClient.execute(post, localContext);
             //System.out.println("Customer Response "+response);
             if(response.getStatusLine().getStatusCode() == 201) {
-                System.out.println("Customer Created { Count - " + (++uploadCount) + "}" + customerInfo);
+                logger.info("Customer Created { Count - " + (++uploadCount) + "}" + customerInfo);
             } else {
-                System.out.println("Customer Failed { Count - " + (++failedCount) + "}" + customerInfo);
+                logger.info("Customer Failed { Count - " + (++failedCount) + "}" + customerInfo);
                 writeFailedRecordsIntoAFile(customerInfo);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("Customer Failed { Count - " + (++failedCount) + "}" + customerInfo, e);
+            writeFailedRecordsIntoAFile(customerInfo);
         }
     }
 
     private static void writeFailedRecordsIntoAFile(CustomerInfo customerInfo) {
         try
         {
-            FileWriter fw = new FileWriter(new File(Processors.BASE_DIR+"/failed/failed.json"));
+            FileWriter fw = new FileWriter(new File(Processors.BASE_DIR+"/failed/failed.json"), true);
             //BufferedWriter writer give better performance
             BufferedWriter bw = new BufferedWriter(fw);
             bw.write(customerInfo.toString());
             //Closing BufferedWriter Stream
             bw.close();
         } catch (IOException e) {
-            e.printStackTrace();
+            logger.error("JSON Write failed ", e);
         }
     }
-
-
 }

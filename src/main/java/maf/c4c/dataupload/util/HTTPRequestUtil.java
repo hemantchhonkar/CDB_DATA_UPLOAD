@@ -7,6 +7,7 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.entity.StringEntity;
 
 import java.io.*;
+import static java.nio.charset.StandardCharsets.*;
 
 public class HTTPRequestUtil {
     public final static String API_URL = "https://my349203.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi";
@@ -45,7 +46,8 @@ public class HTTPRequestUtil {
         post.addHeader("Authorization", Basic_Auth);
         post.addHeader("X-CSRF-Token", csrfToken);
         StringEntity content;
-        content = new StringEntity(JSONUtil.toJsonString(customerInfo));
+        System.out.println("Going to create --- "+JSONUtil.toJsonString(customerInfo));
+        content = new StringEntity(JSONUtil.toJsonString(customerInfo), "UTF-8");
         post.setEntity(content);
         post.setEntity(content);
         return post;
