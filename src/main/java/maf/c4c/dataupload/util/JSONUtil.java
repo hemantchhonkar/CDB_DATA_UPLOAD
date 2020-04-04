@@ -68,7 +68,7 @@ public class JSONUtil {
         }
         if ("Email".equals(fieldName)) {
             parser.nextToken();  //next token contains value
-            customerInfo.setEmail("JSON_TEST"+parser.getText());  //getting text field
+            customerInfo.setEmail(parser.getText());  //getting text field
         }
         if ("NonSAPExternalSystem_KUT".equals(fieldName)) {
             parser.nextToken();  //next token contains value
