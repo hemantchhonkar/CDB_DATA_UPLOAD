@@ -5,13 +5,16 @@ import java.io.IOException;
 import java.util.HashMap;
 
 public class CountryService {
+    private static HashMap<String, Country> countryHashMap;
+    static {countryHashMap = getCountryMap();}
+
     public static void main(String[] args)  {
-       System.out.println(new CountryService().getCountryCodeByISO("NZL"));
+       System.out.println(getCountryCodeByISO("NZL"));
     }
 
-    public String getCountryCodeByISO(String countryISO) {
-        if(countryISO.length() >0 ) {
-            Country country = this.getCountryMap().get(countryISO);
+    public static String getCountryCodeByISO(String countryISO) {
+        if(countryISO.length() > 0 ) {
+            Country country = countryHashMap.get(countryISO);
             if(country !=null) {
                 return country.getCode();
             }
@@ -21,7 +24,7 @@ public class CountryService {
         }
     }
 
-    public HashMap<String, Country> getCountryMap() {
+    public static HashMap<String, Country> getCountryMap() {
         HashMap<String, Country> countryMap =new HashMap<>();
         countryMap.put("AFG",new Country("Afghanistan","AF","AFG",4));
         countryMap.put("ALB",new Country("Albania","AL","ALB",8));

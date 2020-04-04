@@ -135,16 +135,15 @@
 
         }
         public CustomerInfo(CSVRecord record) {
-            CountryService countryService = new CountryService();
             try {
             	this.setNonSAPExternalSystem("CDB");
                 this.setRoleCode(record.get("Role"));
                 this.setFirstName( record.get("First_Name"));
                 this.setLastName(record.get("Last_Name") );
-                this.setNationalityCountryCode(countryService.getCountryCodeByISO(record.get("Nationality")));
+                this.setNationalityCountryCode(CountryService.getCountryCodeByISO(record.get("Nationality")));
                 this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
                 this.setLanguageCode(record.get("Language"));
-                this.setCountryCode(countryService.getCountryCodeByISO(record.get("Country")));
+                this.setCountryCode(CountryService.getCountryCodeByISO(record.get("Country")));
                 String phone = record.get("Phone");
                 String mobile = record.get("Mobile");
                 this.setPhone(phone.length() > 0 ? formatNumber(phone) : phone);
