@@ -10,8 +10,8 @@ import java.io.*;
 import static java.nio.charset.StandardCharsets.*;
 //https://my350137.crm.ondemand.com
 public class HTTPRequestUtil {
-    public final static String API_URL = "https://my350137.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi";
-    public final static String Basic_Auth = "Basic aGNoaG9ua2FyOkdlZWsjMDEwMQ==";
+    public final static String API_URL = "https://my349203.crm.ondemand.com/sap/c4c/odata/v1/c4codataapi";
+    public final static String Basic_Auth = "Basic aGVtYW50OkNhcnJlZm91ckAx";
 
     public static HttpGet createGetCSRFTokenRequest() {
         final HttpGet get = new HttpGet(API_URL);

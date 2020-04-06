@@ -138,7 +138,7 @@
             try {
             	this.setNonSAPExternalSystem("CDB");
                 this.setRoleCode(record.get("Role"));
-                this.setFirstName( record.get("First_Name"));
+                this.setFirstName( "Patched "+record.get("First_Name"));
                 this.setLastName(record.get("Last_Name") );
                 this.setNationalityCountryCode(CountryService.getCountryCodeByISO(record.get("Nationality")));
                 this.setGenderCode(record.get("Gender").equalsIgnoreCase("M") ? "1" : "2");
@@ -148,7 +148,7 @@
                 String mobile = record.get("Mobile");
                 this.setPhone(phone.length() > 0 ? formatNumber(phone) : phone);
                 this.setMobile(mobile.length() > 0 ? formatNumber(mobile) : mobile);
-                this.setEmail(record.get("EMail"));
+                this.setEmail("patched"+record.get("EMail"));
                 this.setCustomrExternalId(record.get("External_Key"));
                 
             }

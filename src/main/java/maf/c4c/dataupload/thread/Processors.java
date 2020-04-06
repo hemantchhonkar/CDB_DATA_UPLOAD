@@ -33,7 +33,7 @@ public class Processors implements Runnable {
     final String INPUT_DIR = BASE_DIR+"/input/";
     final String INPROCESS_DIR = BASE_DIR+"/inprocess/";
     final String PROCESSED_DIR = BASE_DIR+"/processed/";
-    private static final int CONSUMER_COUNT = 100;
+    private static int CONSUMER_COUNT = 100;
     private static String defaultFileExtToProcess = ".csv";
     private static final List<String> allowedFileExtTOProcess = Arrays.asList(new String[]{"csv", "json"});
     private final static BlockingQueue<CustomerInfo> linesReadQueue = new ArrayBlockingQueue<>(300);
@@ -45,7 +45,8 @@ public class Processors implements Runnable {
         this.isConsumer = consumer;
     }
 
-    public static void startMigration(String baseDirPath, String fileExtToProcess) {
+    public static void startMigration(String baseDirPath, String fileExtToProcess, int noOfConsumers) {
+        CONSUMER_COUNT = noOfConsumers;
         if(fileExtToProcess !=null && allowedFileExtTOProcess.contains(fileExtToProcess)){
             defaultFileExtToProcess = fileExtToProcess;
         } else {
