@@ -16,10 +16,12 @@ public class EntryPoint {
         // Reading data using readLine
         System.out.println("Please enter file directory full path");
         String baseDir = reader.readLine();
+        System.out.println("Please enter file extension to be processed.");
+        String fileExt = reader.readLine();
 
         // Printing the read line
         logger.info(baseDir);
         logger.info("Data migration process started.....");
-        Processors.startMigration(baseDir);
+        Processors.startMigration(baseDir, fileExt);
     }
 }
